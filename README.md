@@ -50,3 +50,10 @@ The model's output is visualized through interactive dashboards to make the data
 * `models/`: Saved XGBoost weights and the Isotonic Calibrator.
 * `data/`: Data schema and a sample datasets for players, goalies, teams & cleaned shot data (Full dataset excluded due to size).
 * `requirements.txt`: List of libraries used
+
+---
+
+* ## ⚖️ Legal & Ethical Note
+* **Data Ownership:** All raw data is property of the Ontario Hockey League (OHL) and LeagueStat. This project is for infomrational and portfolio purposes only.
+* **Usage:** This repository does not contain the full OHL dataset. The included sample data is a minimal subset provided solely to demonstrate the code's functionality.
+* **Scraping Ethics:** The scraping scripts included are designed with rate-limiting to respect server integrity.
