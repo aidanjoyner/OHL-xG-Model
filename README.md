@@ -48,5 +48,5 @@ The model's output is visualized through interactive dashboards to make the data
 ## 📂 Repository Structure
 * `src/`: Core Python scripts for scraping, cleaning, model training & stat building.
 * `models/`: Saved XGBoost weights and the Isotonic Calibrator.
-* `data/`: Data schema and a `sample_data.csv` (Full dataset excluded due to size).
+* `data/`: Data schema and a sample datasets for players, goalies, teams & cleaned shot data (Full dataset excluded due to size).
 * `requirements.txt`: List of libraries used
