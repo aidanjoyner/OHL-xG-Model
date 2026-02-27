@@ -1,0 +1,32 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data, Files & Models
+*.csv
+*.xlsx
+*.pkl
+*.json
+*.joblib
+
+# Environment
+.venv/
+env/
+
+# Folders to exclude
+.ipynb_checkpoints/
+Data/
+Images/
+Jupyter Files/
+LogRegModels/
+Parquets/
+
+# Exceptions
+!models/*.joblib
+!models/*.pkl
+!models/*.json
+!sampleData/*.xlsx
+
+# Credentials
+.env
