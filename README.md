@@ -1,3 +1,5 @@
+<img width="1805" height="708" alt="image" src="https://github.com/user-attachments/assets/98fcd509-40dc-4c80-be41-4016d5b6ba45" />
+
 # Ontario Hockey League (OHL) Expected Goals (xG) Model 🏒
 
 An end-to-end machine learning pipeline designed to quantify shot quality in the Ontario Hockey League (OHL). By analyzing over **200,000 distinct shot events**, this model assigns a probabilistic value to every shot becoming a goal, providing another baseline stat to base player & team performance off of
