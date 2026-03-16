@@ -1,13 +1,13 @@
 <img width="1805" height="708" alt="image" src="https://github.com/user-attachments/assets/98fcd509-40dc-4c80-be41-4016d5b6ba45" />
 
-# Ontario Hockey League (OHL) Expected Goals (xG) Model 🏒
+# Ontario Hockey League (OHL) Expected Goals (xG) Model 
 
 An end-to-end machine learning pipeline designed to quantify shot quality in the Ontario Hockey League (OHL). By analyzing over **200,000 distinct shot events**, this model assigns a probabilistic value to every shot becoming a goal, providing another baseline stat to base player & team performance off of
 
 
 ---
 
-## 🥅 The Problem & Motivation
+##  The Problem & Motivation
 In junior hockey, raw goal totals can be deceptive due to high variance  and varying categorical factors such age/competition. Standard "shots on goal" metrics treat a point-shot through a screen the same as a breakaway or rebound into an opening net, failing to provide enough insight on what's going on over a full 60 minute game. 
 
 This project was built to:
@@ -16,7 +16,7 @@ This project was built to:
 * **Isolate Finishing & Goaltending Ability**: Identify which players consistently outperform their expected totals, in terms of both scoring goals on the skater side, and saving on the goaltender side. Shooting can also be largely luck based, so xG can help identify if a player is simply in a shooting slump, or if strong/poor shooting performance is a common occurence based on season-to-season results
 * **Evaluate Team Structures**: The model quantifies how well teams limit high-danger scoring chances, and produce them themsleves. It can also depict situational strengths, such as powerplay/penalty kill generation/suppression, to show team strenghts/weaknesses. 
 
-## 🛠️ The Process
+##  The Process
 
 ### 1. Data Pipeline & Scraping
 * **Source**: Scraped 200,000+ distinct shot events from OHL JSON feeds using **Python**.
@@ -38,14 +38,14 @@ Created spatial and contextual metrics to capture the "danger" of a shot:
 
 ---
 
-## 📈 Visualizations & Insights
+##  Visualizations & Insights
 The model's output is visualized through interactive dashboards to make the data accessible for all.
 
 * **Interactive Dashboard**: https://public.tableau.com/app/profile/aidan.joyner
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 * `src/`: Core Python scripts for scraping, cleaning, model training & stat building.
 * `models/`: Saved XGBoost weights and the Isotonic Calibrator.
 * `data/`: Data schema and a sample datasets for players, goalies, teams & cleaned shot data (Full dataset excluded due to size).
@@ -53,7 +53,7 @@ The model's output is visualized through interactive dashboards to make the data
 
 ---
 
-* ## ⚖️ Legal & Ethical Note
+* ##  Legal & Ethical Note
 * **Data Ownership:** All raw data is property of the Ontario Hockey League (OHL) and LeagueStat. This project is for infomrational and portfolio purposes only.
 * **Usage:** This repository does not contain the full OHL dataset. The included sample data is a minimal subset provided solely to demonstrate the code's functionality.
 * **Scraping Ethics:** The scraping scripts included are designed with rate-limiting to respect server integrity.
